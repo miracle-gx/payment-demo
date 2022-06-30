@@ -36,6 +36,7 @@ public class AliPayTask {
 
             // 核实订单状态: 调用支付宝查单接口
             aliPayService.checkOrderStatus(orderNo);
+
         }
     }
 }
